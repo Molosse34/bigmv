@@ -8,4 +8,5 @@ def bigmv(file,path):
 	if a==True:
 		os.system(f"mv {file} {path} ")
 	if a==False:
-		os.system(f"mkdir {path} && mv {file} {path} ")
+		os.system(f"mkdir {path} ") 
+		os.system(f" mv {file} {path} ")
